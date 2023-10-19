@@ -39,7 +39,7 @@ def print_predictions(preds):
 model = load_model()
 
 
-st.title('Классификация изображений для определения типа высоковольтных изоляторов методами машинного обучения')
+st.title('Web-приложение для классификации изображений')
 img = load_image()
 result = st.button('Распознать изображение')
 if result:
